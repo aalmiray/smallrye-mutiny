@@ -10,7 +10,7 @@
 
     <groupId>io.smallrye.reactive</groupId>
     <artifactId>mutiny-project</artifactId>
-    <version>999-SNAPSHOT</version>
+    <version>2.7.0-RC4</version>
     <packaging>pom</packaging>
 
     <name>SmallRye Mutiny - Parent</name>
@@ -571,7 +571,7 @@
                             <jreleaser>
                                 <release>
                                     <github>
-                                        <owner>smallrye</owner>
+                                        <owner>aalmiray</owner>
                                         <name>smallrye-mutiny</name>
                                         <enabled>true</enabled>
                                         <overwrite>true</overwrite>
@@ -593,7 +593,7 @@
                                                 </contributors>
                                             </hide>
                                         </changelog>
-                                        <discussionCategoryName>Announcements</discussionCategoryName>
+                                        <!--discussionCategoryName>Announcements</discussionCategoryName-->
                                     </github>
                                 </release>
                             </jreleaser>
